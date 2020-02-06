@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, useColorMode } from 'theme-ui'
 
-export const ToggleSwitch = ({ variant }) => {
+export const ThemeSwitch = ({ variant }) => {
   const [colorMode, setColorMode] = useColorMode()
 
   const toggleMode = () => {
@@ -32,4 +32,4 @@ export const ToggleSwitch = ({ variant }) => {
   )
 }
 
-export default ToggleSwitch
+export default ThemeSwitch

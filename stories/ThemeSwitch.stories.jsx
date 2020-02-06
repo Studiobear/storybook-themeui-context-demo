@@ -1,29 +1,29 @@
-import * as React from 'react'
-import { ThemeProvider } from 'theme-ui'
-import { withContexts } from '@storybook/addon-contexts/react'
-import theme, { ThemeSwitch } from '../src'
+import React from "react";
+import { ThemeProvider } from "theme-ui";
+import { withContexts } from "@storybook/addon-contexts/react";
+import theme, { ThemeSwitch } from "../src";
 
 const topLevelContexts = [
   {
-    title: 'Theme UI Components',
+    title: "Theme UI Components",
     components: [ThemeProvider],
     params: [
       {
-        name: 'ThemeUiProvider',
+        name: "ThemeUiProvider",
         props: {
-          theme: theme,
+          theme: theme
         },
-        default: true,
-      },
-    ],
-  },
-]
+        default: true
+      }
+    ]
+  }
+];
 
 export default {
-  title: 'Theme Switch',
+  title: "Theme Switch",
   component: ThemeSwitch,
   decorators: [withContexts(topLevelContexts)],
   parameters: {
-    themeui: theme,
-  },
-}
+    themeui: theme
+  }
+};
