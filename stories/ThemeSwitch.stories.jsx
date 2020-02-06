@@ -20,12 +20,10 @@ const topLevelContexts = [
 ]
 
 export default {
-  title: 'ThemeSwitch',
+  title: 'Theme Switch',
   component: ThemeSwitch,
   decorators: [withContexts(topLevelContexts)],
   parameters: {
     themeui: theme,
   },
 }
-
-export const withText = () => <ToggleSwitch />
