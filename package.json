@@ -2,15 +2,18 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "storybook-themeui",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "Example for setting up Storybook with Theme-UI",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "theme-ui": "^0.3.1",
+    "storybook": "^5.3.12"
   },
   "engines": {
     "node": "10.x"
