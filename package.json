@@ -13,7 +13,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "theme-ui": "^0.3.1",
-    "storybook": "^5.3.12"
+    "@storybook/addons": "^5.3.12",
+    "@storybook/addon-contexts": "^5.3.12",
+    "@storybook/react": "^5.3.12"
   },
   "engines": {
     "node": "10.x"
