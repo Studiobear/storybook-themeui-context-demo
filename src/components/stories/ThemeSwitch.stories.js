@@ -1,8 +1,8 @@
 import React from 'react';
 import { ThemeProvider } from "theme-ui";
 import { withContexts } from "@storybook/addon-contexts/react";
-import theme, { ThemeSwitch } from "../src";
-import theme, { ThemeSwitch } from "../src";
+import theme from "../../theme";
+import { ThemeSwitch } from "../ThemeSwitch";
 
 const topLevelContexts = [
   {
