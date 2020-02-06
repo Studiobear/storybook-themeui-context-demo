@@ -3,6 +3,7 @@ export default {
     text: '#000',
     background: '#dde',
     primary: '#07c',
+    secondary: '#0c7',
     modes: {
       dark: {
         text: '#fff',
@@ -29,5 +30,15 @@ export default {
   letterSpacings: {
     body: 'normal',
     caps: '0.2em',
+  },
+  buttons: {
+    primary: {
+      color: 'orange',
+      bg: 'primary',
+    },
+    secondary: {
+      color: 'green',
+      bg: 'secondary',
+    },
   },
 }
