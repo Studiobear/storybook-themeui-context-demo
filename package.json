@@ -16,7 +16,8 @@
     "@storybook/addons": "^5.3.12",
     "@storybook/addon-contexts": "^5.3.12",
     "@storybook/react": "^5.3.12",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "@babel/core": "^7.8.4"
   },
   "engines": {
     "node": "10.x"

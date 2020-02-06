@@ -1,4 +1,5 @@
 dependencies:
+  '@babel/core': 7.8.4
   '@storybook/addon-contexts': 5.3.12
   '@storybook/addons': 5.3.12
   '@storybook/react': 5.3.12
@@ -9194,6 +9195,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
+  '@babel/core': ^7.8.4
   '@storybook/addon-contexts': ^5.3.12
   '@storybook/addons': ^5.3.12
   '@storybook/react': ^5.3.12
