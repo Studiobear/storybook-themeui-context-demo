@@ -27,7 +27,7 @@ export const ThemeSwitch = ({ variant }) => {
         variant: `buttons.${variant}`,
       }}
     >
-      {colorMode === 'default' ? 'light' : colorMode}
+      {(colorMode === 'default' || colorMode === 'light')? 'Use dark' : 'Use light'}
     </button>
   )
 }

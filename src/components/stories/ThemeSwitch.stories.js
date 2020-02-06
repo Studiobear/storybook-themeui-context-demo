@@ -28,3 +28,5 @@ export default {
     themeui: theme
   }
 };
+
+export const withDefaults = () => <ThemeSwitch />
